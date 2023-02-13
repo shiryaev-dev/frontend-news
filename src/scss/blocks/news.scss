@@ -1,0 +1,41 @@
+@import '../variables';
+.news {
+    max-width: $big-desktop;
+    margin-left: auto;
+    margin-right: auto;
+
+    &__button {
+        background-color: #fff;
+        min-width: 160px;
+        height: 40px;
+        line-height: 38px;
+        padding: 0 15px;
+        font-size: 14px;
+        cursor: pointer;
+        border: 2px solid #e8eced;
+        border-radius: 100px;
+        margin-top: 20px;
+
+        &:hover {
+            background-color: #e8eced;
+        }
+    }
+
+    &__link {
+        text-decoration: underline;
+        color: rgba(117, 117, 117, 1);
+        margin-bottom: 20px;
+        display: inline-block;
+        margin-top: 20px;
+
+        &:hover {
+            opacity: 0.5;
+        }
+    }
+
+    &__loading {
+        margin: 100px auto;
+        text-align: center;
+        font-size: 22px;
+    }
+}

@@ -1,0 +1,25 @@
+.home {
+    max-width: 1480px;
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+
+    &__toolbar {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        margin: 20px 0;
+    }
+
+    &__error-info {
+        margin: 100px auto;
+        text-align: center;
+        width: 500px;
+    }
+
+    &__loading {
+        margin: 100px auto;
+        text-align: center;
+        font-size: 22px;
+    }
+}
